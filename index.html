@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src='./lib/hanoi.js'></script>
+  <script src='./lib/TowersUI.js'></script>
+  <link rel="stylesheet" type="text/css" href="./css/hanoi.css"></link>
+  </head>
+
+  <body>
+    <script>
+      $(document).ready(function() {
+        Hanoi.TowersUI.bindHandlers(new Hanoi.Game());
+      })
+    </script>
+
+    <div class="container">
+
+    </div>
+
+  </body>
+</html>
